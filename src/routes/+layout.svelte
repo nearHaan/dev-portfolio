@@ -13,8 +13,8 @@
 	<title>Farhaan Nizam</title>
 </svelte:head>
 
-<div class="min-h-screen min-w-screen bg-black p-4 text-white">
-	<header class="flex w-full items-center justify-center">
+<div class="flex flex-col min-h-screen min-w-screen bg-black p-4 text-white">
+	<header class="sticky absolute top-4 flex w-full items-center justify-center">
 		<nav class="rounded-full bg-[#ffffff15] p-1 backdrop-blur-lg">
 			<ul class="flex">
 				<li>
@@ -76,8 +76,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="h-full w-full">
+	<main class="absolute inset-0">
 		{@render children?.()}
 	</main>
-	<footer>//</footer>
 </div>
