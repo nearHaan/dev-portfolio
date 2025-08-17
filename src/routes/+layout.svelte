@@ -16,7 +16,7 @@
 
 <div class="flex min-h-screen min-w-screen flex-col bg-black p-4 text-white">
 	<header class="absolute z-10 sticky top-4 flex w-full items-center justify-center font-title">
-		<nav class="rounded-full bg-[#ffffff15] border-1 border-[#ffffff30] inset-shadow-xs inset-shadow-white p-[2px] backdrop-blur-lg">
+		<nav class="overflow-hidden rounded-full bg-[#ffffff15] border-1 border-[#ffffff30] inset-shadow-xs inset-shadow-white p-[2px] backdrop-blur-lg">
 			<ul class="flex">
 				<li>
 					<button
@@ -24,7 +24,7 @@
 							onTabClick('home');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'home'
-							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
+							? 'tab-sel-animate border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Home
@@ -36,7 +36,7 @@
 							onTabClick('about');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'about'
-							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
+							? 'tab-sel-animate border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						About
@@ -48,7 +48,7 @@
 							onTabClick('projects');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'projects'
-							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
+							? 'tab-sel-animate border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Projects
@@ -60,7 +60,7 @@
 							onTabClick('experience');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'experience'
-							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
+							? 'tab-sel-animate border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Experience
