@@ -16,7 +16,7 @@
 
 <div class="flex min-h-screen min-w-screen flex-col bg-black p-4 text-white">
 	<header class="absolute z-10 sticky top-4 flex w-full items-center justify-center font-title">
-		<nav class="rounded-full bg-[#ffffff15] p-[2px] backdrop-blur-lg">
+		<nav class="rounded-full bg-[#ffffff15] border-1 border-[#ffffff30] inset-shadow-xs inset-shadow-white p-[2px] backdrop-blur-lg">
 			<ul class="flex">
 				<li>
 					<button
