@@ -24,7 +24,7 @@
 							onTabClick('home');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'home'
-							? 'bg-[#ffffff15] backdrop-blur-lg'
+							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Home
@@ -36,7 +36,7 @@
 							onTabClick('about');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'about'
-							? 'bg-[#ffffff15] backdrop-blur-lg'
+							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						About
@@ -48,7 +48,7 @@
 							onTabClick('projects');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'projects'
-							? 'bg-[#ffffff15] backdrop-blur-lg'
+							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Projects
@@ -60,7 +60,7 @@
 							onTabClick('experience');
 						}}
 						class="rounded-full px-4 py-0.5 {activeTab == 'experience'
-							? 'bg-[#ffffff15] backdrop-blur-lg'
+							? 'border-1 border-[#ffffff30] inset-shadow-2xs inset-shadow-white backdrop-blur-lg'
 							: ''}"
 					>
 						Experience
